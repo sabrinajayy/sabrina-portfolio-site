@@ -2,8 +2,72 @@
 <html>
   <head>
     <title>Sabrina John Portfolio - Full Stack Web Developer</title>
+
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sabrina John is a full stack web developer based out of Toronto, Canada. Her specialities are in front-end development."/>
+    <meta name="keywords" content="full-stack developer, front-end developer, web developer, ruby on rails, freelance developer"/>
+    <meta name="author" content="Sabrina John" />
+
+
+    <!-- stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Quicksand:400,500,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <div id="nav">
+       <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+       </ul>
+    </div>
 
+    <div id="home-page">
+      <a id="home" class="smooth"></a>
+      <div class="home-content">
+        <h1 class="main-title">Sabrina John</h1>
+        <h2>Full Stack Web Developer</h2>
+        <p>This is a test.</p>
+        <a href="#about"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div id="about-page">
+      <a id="about" class="smooth"></a>
+        About page content goes here.
+    </div>
+
+    <div id="portfolio-page">
+      <a id="portfolio" class="smooth"></a>
+        Portfolio page content goes here.
+    </div>
+
+    <div id="contact-page">
+      <a id="contact" class="smooth"></a>
+        Contact page content goes here.
+    </div>
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+
+        return false;
+    });
+    </script>
   </body>
 </html>

@@ -1,6 +1,16 @@
+/*import other files */
+@import 'project.css';
+@import 'navbar.css';
+
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .main-title {
@@ -8,10 +18,4 @@ body {
   font-size: 42px;
   font-weight: 900;
   text-transform: uppercase;
-}
-
-p {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
 }

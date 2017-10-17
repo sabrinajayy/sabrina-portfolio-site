@@ -43,3 +43,13 @@ p {
   color: #b49996;
   opacity: 0.8;
 }
+
+/*about section */
+#about-page {
+  height: 100vh;
+  background-color: #b49996;
+}
+
+.about-content i {
+  color: white;
+}

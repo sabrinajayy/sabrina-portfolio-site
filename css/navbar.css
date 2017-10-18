@@ -5,7 +5,7 @@
   height: 80px;
   width: 100%;
   padding-top: 40px;
-  padding-right: 40px;
+  z-index: 9;
 }
 
 #nav i {
@@ -15,6 +15,7 @@
 
 .hamburger-menu {
   text-align: right;
+  padding-right: 40px;
 }
 
 .nav-active {
@@ -23,12 +24,28 @@
   opacity: 0.3;
 }
 
+.menu-icon-active {
+  color: white;
+}
+
+
 #nav ul {
   list-style-type: none;
   padding-left: 0px;
+  padding-top: 40px;
+  line-height: 80px;
   text-align: center;
 }
 
 #nav li a {
   text-decoration: none;
+  color: white;
+}
+
+#nav li {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
 }

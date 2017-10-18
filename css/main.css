@@ -5,6 +5,8 @@
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
+  margin: 0 auto;
+  background-color: white;
 }
 
 p {
@@ -14,11 +16,15 @@ p {
   color: #373741;
 }
 
-
+/*home page*/
 #home-page {
   height: 100vh;
-  background-color: white;
+  padding-top: 80px;
 }
+
+/*#home {
+  padding-top: 100px;
+}*/
 
 .main-title {
   font-family: 'Lato', sans-serif;
@@ -47,9 +53,8 @@ p {
 /*about section */
 #about-page {
   height: 100vh;
-  background-color: #b49996;
 }
 
 .about-content i {
-  color: white;
+  color: #b49996;
 }

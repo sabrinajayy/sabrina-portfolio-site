@@ -18,59 +18,68 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div id="nav">
-       <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-       </ul>
-    </div>
+      <div id="nav">
+        <div class="hamburger-menu">
+          <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-times fa-4x hidden" aria-hidden="true" style="color: white;"></i>
+        </div>
+        <div class="menu-items hidden">
 
-    <div id="home-page">
-      <a id="home" class="smooth"></a>
-      <div class="home-content">
-        <h1 class="main-title">Sabrina John</h1>
-        <h2>Full Stack Web Developer</h2>
-        <p>This is a test.</p>
-        <a href="#about"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+           <ul class="nav-links">
+              <li><a href="/">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+           </ul>
+         </div>
       </div>
-    </div>
 
-    <div id="about-page">
-      <a id="about" class="smooth"></a>
-      <div class="about-content">
-        About page content goes here.
-        <a href="#portfolio"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+      <div class="container">
+
+        <div id="home-page">
+          <a id="home" class="smooth"></a>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7 offset-sm-3">
+              <div class="home-content">
+                <h1 class="main-title">Sabrina John</h1>
+                <h2>Full Stack Web Developer</h2>
+                <p>This is a test.</p>
+                <a href="#about"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="about-page">
+          <a id="about" class="smooth"></a>
+          <div class="about-content">
+            About page content goes here.
+            <a href="#portfolio"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div id="portfolio-page">
+          <a id="portfolio" class="smooth"></a>
+            Portfolio page content goes here.
+             <a href="#contact"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+        </div>
+
+        <div id="contact-page">
+          <a id="contact" class="smooth"></a>
+           <a href="/"><i class="fa fa-chevron-up fa-4x" aria-hidden="true"></i></a>
+            Contact page content goes here.
+        </div>
       </div>
-    </div>
-
-    <div id="portfolio-page">
-      <a id="portfolio" class="smooth"></a>
-        Portfolio page content goes here.
-    </div>
-
-    <div id="contact-page">
-      <a id="contact" class="smooth"></a>
-        Contact page content goes here.
-    </div>
 
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-    <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
 
-        return false;
-    });
-    </script>
+
+    <script src="js/main.js" type="text/javascript" ></script>
+
+
   </body>
 </html>

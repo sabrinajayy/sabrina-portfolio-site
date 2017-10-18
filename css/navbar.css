@@ -42,6 +42,10 @@
   color: white;
 }
 
+#nav li a:hover {
+  color: black;
+}
+
 #nav li {
   text-transform: uppercase;
   color: white;

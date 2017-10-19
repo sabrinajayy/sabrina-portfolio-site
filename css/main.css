@@ -9,11 +9,30 @@ body {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #b49996;
+}
+
 p {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   color: #373741;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #b49996;
+  opacity: 0.7;
+  margin-top: 0px;
 }
 
 #site-section {
@@ -26,16 +45,6 @@ p {
   padding-top: 150px;
   width: 70%;
   padding-bottom: 100px;
-}
-
-.section-content h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 2.75rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #b49996;
-  opacity: 0.7;
-  margin-top: 0px;
 }
 
 .section-content i {
@@ -65,18 +74,6 @@ p {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-
-
-
-/*about section */
-
-
-
-/*portfolio section */
-
-
-
-/*CONTACT SECTION*/
 
 
 /*MOBILE DEVICES*/

@@ -1,6 +1,7 @@
 /*import other files */
 @import 'project.css';
 @import 'navbar.css';
+@import 'footer.css';
 
 body {
   font-family: 'Quicksand', sans-serif;
@@ -25,7 +26,7 @@ p {
   color: #373741;
 }
 
-h2 {
+.container h2 {
   font-family: 'Lato', sans-serif;
   font-size: 2.75rem;
   font-weight: 400;
@@ -88,5 +89,8 @@ h2 {
 
 /*MOBILE DEVICES*/
 @media screen and (max-width: 940px) {
-
+  .section-content {
+    width: 100%;
+    padding-right: 2.5rem;
+  }
 }

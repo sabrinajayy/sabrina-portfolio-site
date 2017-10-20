@@ -8,4 +8,11 @@
       $('.menu-items').toggleClass('hidden');
       $('body').toggleClass('nav-active');
     });
+
   });
+
+   $(document).ready(function() {
+    $('#fullpage').fullpage({
+      anchors:['home', 'about', 'portfolio', 'contact']
+    });
+   });

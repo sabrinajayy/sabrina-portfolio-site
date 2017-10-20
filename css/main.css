@@ -1,6 +1,7 @@
 /*import other files */
 @import 'project.css';
 @import 'navbar.css';
+@import 'footer.css';
 
 body {
   font-family: 'Quicksand', sans-serif;

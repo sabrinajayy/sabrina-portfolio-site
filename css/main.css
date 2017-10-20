@@ -63,7 +63,7 @@ p {
 
 .home-content {
   padding-left: 2.5rem;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .home-content i {
@@ -91,6 +91,10 @@ p {
 @media screen and (max-width: 940px) {
   .section-content {
     width: 100%;
+    padding-right: 2.5rem;
+  }
+
+  .home-content {
     padding-right: 2.5rem;
   }
 }

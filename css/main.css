@@ -25,7 +25,7 @@ p {
   color: #373741;
 }
 
-h2 {
+.container h2 {
   font-family: 'Lato', sans-serif;
   font-size: 2.75rem;
   font-weight: 400;

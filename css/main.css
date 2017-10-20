@@ -43,7 +43,6 @@ p {
 
 .section-content {
   padding-left: 2.5rem;
-  padding-top: 150px;
   width: 70%;
   padding-bottom: 100px;
 }
@@ -57,13 +56,10 @@ p {
 #home-page {
   height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .home-content {
   padding-left: 2.5rem;
-  padding-bottom: 150px;
 }
 
 .home-content i {

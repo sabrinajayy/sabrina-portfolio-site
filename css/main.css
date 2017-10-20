@@ -9,6 +9,15 @@ body {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #b49996;
+}
+
 p {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
@@ -16,23 +25,44 @@ p {
   color: #373741;
 }
 
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #b49996;
+  opacity: 0.7;
+  margin-top: 0px;
+}
+
+#site-section {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-content {
+  padding-left: 2.5rem;
+  padding-top: 150px;
+  width: 70%;
+  padding-bottom: 100px;
+}
+
+.section-content i {
+  color: #b49996;
+  opacity: 0.8;
+}
 
 /*home page*/
 #home-page {
   height: 100vh;
   width: 100%;
-/*  padding-top: 80px;*/
   display: flex;
   align-items: center;
 }
 
-/*#home {
-  padding-top: 100px;
-}*/
-
 .home-content {
+  padding-left: 2.5rem;
   padding-bottom: 100px;
-   padding-left: 2.5rem;
 }
 
 .main-title {
@@ -45,66 +75,6 @@ p {
   margin-top: 0px;
 }
 
-.home-content h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 2.75rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #b49996;
-  opacity: 0.7;
-  margin-top: 0px;
-}
-
-.home-content i {
-  color: #b49996;
-  opacity: 0.8;
-}
-
-/*about section */
-#about-page {
-  height: 100vh;
-}
-
-.about-content {
-  padding-top: 150px;
-}
-
-.about-content h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 2.75rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #b49996;
-  opacity: 0.7;
-  margin-top: 0px;
-}
-
-.about-content i {
-  color: #b49996;
-}
-
-/*portfolio section */
-#portfolio-page {
-  height: 100vh;
-}
-
-.portfolio-content {
-  padding-top: 150px;
-}
-
-.portfolio-content h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 2.75rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #b49996;
-  opacity: 0.7;
-  margin-top: 0px;
-}
-
-.portfolio-content i {
-  color: #b49996;
-}
 
 /*MOBILE DEVICES*/
 @media screen and (max-width: 940px) {

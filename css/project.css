@@ -1,3 +1,6 @@
+.portfolio-content img {
+  margin-bottom: 20px;
+}
 
 .project-img {
   position: relative;
@@ -11,7 +14,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 30px 10px 20px 10px;
+  padding: 40px 15px 20px 15px;
   background: rgb(180, 153, 150);
   color: #fff;
   visibility: hidden;
@@ -26,6 +29,7 @@
 .project-description h3 {
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
   color: white;
 }
 

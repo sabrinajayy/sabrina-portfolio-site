@@ -78,6 +78,14 @@ p {
   margin-top: 0px;
 }
 
+/*portfolio section */
+.portfolio-content h2 {
+  margin-bottom: 20px;
+}
+
+.portfolio-content i {
+  margin-top: 20px;
+}
 /*contact section*/
 .contact-content li a {
   opacity: 0.8;

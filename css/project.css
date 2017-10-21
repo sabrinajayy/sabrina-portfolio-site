@@ -1,1 +1,39 @@
+.portfolio-content img {
+  margin-bottom: 20px;
+}
 
+.project-img {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px 15px 20px 15px;
+  background: rgb(180, 153, 150);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.project-description p {
+  color: white;
+}
+
+.project-description h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.project-img:hover .project-description {
+  visibility: visible;
+  opacity: 1;
+}

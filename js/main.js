@@ -13,6 +13,6 @@
 
    $(document).ready(function() {
     $('#fullpage').fullpage({
-      anchors:['home', 'about', 'portfolio', 'contact']
+      anchors:['home', 'about', 'portfolio', 'contact', 'footer']
     });
    });

@@ -15,4 +15,6 @@
     $('#fullpage').fullpage({
       anchors:['home', 'about', 'portfolio', 'contact', 'footer']
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
    });

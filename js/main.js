@@ -13,7 +13,8 @@
 
    $(document).ready(function() {
     $('#fullpage').fullpage({
-      anchors:['home', 'about', 'portfolio', 'contact', 'footer']
+      anchors:['home', 'about', 'portfolio', 'contact', 'footer'],
+      scrollOverflow: true
     });
 
     $('[data-toggle="tooltip"]').tooltip();

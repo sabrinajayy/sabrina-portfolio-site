@@ -77,8 +77,11 @@ p {
 }
 
 /*portfolio section */
+.portfolio-content {
+  width: 90% !important;
+}
 .portfolio-content h2 {
-  margin-bottom: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio-content i {

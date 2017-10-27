@@ -6,6 +6,9 @@
   position: relative;
   height: auto;
   width: auto;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(61,61,61,0.3);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(61,61,61,0.3);
+  box-shadow: 0px 1px 5px 1px rgba(61,61,61,0.3);
 }
 
 .project-description {
@@ -23,6 +26,10 @@
 }
 
 .project-description p {
+  color: white;
+}
+
+.project-desciption i {
   color: white;
 }
 

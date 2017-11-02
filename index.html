@@ -40,120 +40,256 @@
       </div>
 
       <div class="container" >
-        <div id="fullpage">
-          <div id="home-page" class="section">
-                <div class="home-content">
-                  <h1 class="main-title">Sabrina John</h1>
-                  <h2>Full Stack Web Developer</h2>
-                  <p>Ruby on Rails. Javascript. HTML. CSS. <a href="#about">Learn more</a></p>
-                  <a href="#about" ><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
-                </div>
-          </div>
+          <div id="fullpage">
+            <div id="home-page" class="section">
+                  <div class="home-content">
+                    <h1 class="main-title">Sabrina John</h1>
+                    <h2>Full Stack Web Developer</h2>
+                    <p>Ruby on Rails. Javascript. HTML. CSS. <a href="#about">Learn more</a></p>
+                    <a href="#about" ><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+                  </div>
+            </div>
 
-          <div id="about-page site-section" class="section">
-                <div class="about-content section-content">
-                  <h2>About Me</h2>
-                  <p>I'm a full-stack web developer based in Toronto, Canada.  I've always loved building websites since a young age. I continue to push myself daily by learning new technologies, and exposing myself to new libraries and frameworks.</p>
-                  <p>What do I know? <b>Ruby on Rails, Javascript, HTML, CSS, jQuery, Bootstrap, SQL, Wordpress</b>, etc. </p>
+            <div id="about-page site-section" class="section">
+                  <div class="about-content section-content">
+                    <h2>About Me</h2>
+                    <p>I'm a full-stack web developer based in Toronto, Canada.  I've always loved building websites since a young age. I continue to push myself daily by learning new technologies, and exposing myself to new libraries and frameworks.</p>
+                    <p>What do I know? <b>Ruby on Rails, Javascript, HTML, CSS, jQuery, Bootstrap, SQL, Wordpress</b>, etc. </p>
 
-                  <p><a href="#contact">Contact me</a> if you'd like to work together. I'm currently open to full-time job opportunities and freelance projects!</p>
-                  <a href="#portfolio"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
-                </div>
-          </div>
+                    <p><a href="#contact">Contact me</a> if you'd like to work together. I'm currently open to full-time job opportunities and freelance projects!</p>
+                    <a href="#portfolio"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+                  </div>
+            </div>
 
-          <div id="portfolio-page site-section" class="section">
-                <div class="portfolio-content section-content">
-                  <h2>Recent Projects</h2>
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-4">
-                        <a href="http://www.theupdo.co" target="_blank">
-                          <div class="project-img">
-                            <img src="images/updo-project.png" class="img-responsive" />
-                            <div class="project-description text-center">
-                              <h3>Updo</h3>
-                              <p>Ruby on Rails, HTML, CSS/SASS, Javascript, jQuery, Bootstrap, PostgreSQL</p>
-                              <p>Click to view live</p>
+            <div id="portfolio-page site-section" class="section">
+                  <div class="portfolio-content section-content">
+                    <h2>Recent Projects</h2>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="project-img">
+                              <img src="images/updo-project.png" class="img-responsive" />
+                              <div class="project-description text-center">
+                                <h3>Updo</h3>
+                                <p>Ruby on Rails, HTML, CSS/SASS, Javascript, jQuery, Bootstrap, PostgreSQL</p>
+                              </div>
                             </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col-xs-12 col-sm-4">
-                        <a href="http://www.theselfiespot.com" target="_blank">
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalUpdo">View Details</button>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
                           <div class="project-img">
-                            <img src="images/selfiespot-project.png" class="img-responsive" />
-                            <div class="project-description text-center">
-                              <h3>The Selfie Spot Photobooth</h3>
-                              <p>Wordpress Development</p>
-                              <p>Click to view live</p>
+                              <img src="images/selfiespot-project.png" class="img-responsive" />
+                              <div class="project-description text-center">
+                                <h3>The Selfie Spot Photobooth</h3>
+                                <p>Wordpress Development</p>
+                              </div>
                             </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col-xs-12 col-sm-4">
-                        <a href="https://mr-cocktail-sabrinajayy.herokuapp.com/" target="_blank">
-                          <div class="project-img">
-                            <img src="images/cocktailz-project.png" class="img-responsive" />
-                            <div class="project-description text-center">
-                              <h3>Cocktailz</h3>
-                              <p>Ruby on Rails. HTML. CSS. Bootstrap</p>
-                              <p>Click to view live</p>
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalSelfie">View Details</button>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="project-img">
+                              <img src="images/cocktailz-project.png" class="img-responsive" />
+                              <div class="project-description text-center">
+                                <h3>Cocktailz</h3>
+                                <p>Ruby on Rails. HTML. CSS. Bootstrap, PostgreSQL</p>
+                              </div>
                             </div>
-                          </div>
-                        </a>
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalCocktailz">View Details</button>
+                        </div>
                       </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-4">
-                        <a href="https://scrambld-longest-word.herokuapp.com/" target="_blank">
-                          <div class="project-img">
-                            <img src="images/scrambld-project.jpg" class="img-responsive" />
-                            <div class="project-description text-center">
-                              <h3>Scrambld</h3>
-                              <p>Ruby on Rails, HTML, CSS, Bootstrap</p>
-                              <p>Click to view live</p>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="project-img">
+                              <img src="images/scrambld-project.jpg" class="img-responsive" />
+                              <div class="project-description text-center">
+                                <h3>Scrambld</h3>
+                                <p>Ruby on Rails, HTML, CSS, Bootstrap</p>
+                              </div>
                             </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col-xs-12 col-sm-4">
-                        <a href="https://todo-manager-sabrina.herokuapp.com/" target="_blank">
-                          <div class="project-img">
-                            <img src="images/todo-project.jpg" class="img-responsive" />
-                            <div class="project-description text-center">
-                              <h3>To Do List App</h3>
-                              <p>Ruby on Rails, HTML, CSS, Bootstrap, PostgreSQL</p>
-                              <p>Click to view live</p>
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalScrambld">View Details</button>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="project-img">
+                              <img src="images/todo-project.jpg" class="img-responsive" />
+                              <div class="project-description text-center">
+                                <h3>To Do List App</h3>
+                                <p>Ruby on Rails, HTML, CSS, Bootstrap, PostgreSQL</p>
+                              </div>
                             </div>
-                          </div>
-                        </a>
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalToDo">View Details</button>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="project-img">
+                              <img src="images/motiv8-project.jpg" class="img-responsive" />
+                              <div class="project-description text-center">
+                                <h3>Motivational Quote Machine</h3>
+                                <p>HTML, CSS, Javascript, jQuery, AJAX, API, Bootstrap</p>
+                              </div>
+                            </div>
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalMotiv8">View Details</button>
+                        </div>
                       </div>
-                    </div>
-                  <a href="#contact"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
-                </div>
-          </div>
-
-          <div id="contact-page site-section" class="section">
-             <div class="contact-content section-content">
-
-               <h2>Let's chat</h2>
-               <p>Contact me if you'd like to discuss how we can work together. I'm currently seeking full-time opportunities and/or freelance projects!</p>
-               <p>Email: hello@sabrinajohn.co</p>
-               <ul class="list-inline">
-                <li><a href="http://www.github.com/sabrinajayy" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Github"></i></a></li>
-                <li><a href="http://www.linkedin.com/in/sabrinajohn" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i> </a></li>
-                <li><a href="https://angel.co/sabrina-john" target="_blank"><i class="fa fa-angellist fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="AngelList"></i></a></li>
-                <li><a href="http://www.instagram.com/sabrinajayy" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a></li>
-               </ul>
-               <a href="#home"><i class="fa fa-chevron-up fa-4x" aria-hidden="true"></i></a>
-             </div>
+                    <a href="#contact"><i class="fa fa-chevron-down fa-4x" aria-hidden="true"></i></a>
+                  </div>
 
 
-          </div>
 
-         </div>
-      </div>
+            </div>
+
+            <div id="contact-page site-section" class="section">
+               <div class="contact-content section-content">
+
+                 <h2>Let's chat</h2>
+                 <p>Contact me if you'd like to discuss how we can work together. I'm currently seeking full-time opportunities and/or freelance projects!</p>
+                 <p>Email: hello@sabrinajohn.co</p>
+                 <!-- social media icons -->
+                 <ul class="list-inline">
+                  <li><a href="http://www.github.com/sabrinajayy" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Github"></i></a></li>
+                  <li><a href="http://www.linkedin.com/in/sabrinajohn" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i> </a></li>
+                  <li><a href="https://angel.co/sabrina-john" target="_blank"><i class="fa fa-angellist fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="AngelList"></i></a></li>
+                  <li><a href="http://www.instagram.com/sabrinajayy" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a></li>
+                 </ul>
+                 <a href="#home"><i class="fa fa-chevron-up fa-4x" aria-hidden="true"></i></a>
+               </div>
+
+
+            </div>
+
+           </div> <!-- end fullpage plugin wrapper -->
+        </div> <!--end container -->
       <div id="footer" class="section">
         <p>Copyright 2017, Sabrina John. All Rights Reserved</p>
+      </div>
+
+      <!--MODALS -->
+      <!-- updo modal -->
+      <div class="modal fade" id="portfolioModalUpdo" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Updo</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>Updo is a online marketplace for users to book freelance beauty professionals.</p>
+              <p>The project was built with Ruby on Rails on the backend, with PostgreSQL for database. The frontend is built with HTML, CSS/SCSS, Javascript, using jQuery and Bootstrap for mobile responsiveness. Updo is currently being rebuilt using React.js.</p>
+              <p>I'm largely responsible for frontend development and web design.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="http://www.theupdo.co" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--selfie spot modal -->
+      <div class="modal fade" id="portfolioModalSelfie" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">The Selfie Spot Photobooth</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>The Selfie Spot is a photo booth rental company serving the Toronto, Canada area</p>
+              <p>The website was built using a custom Wordpress theme and plugins including Yoast SEO, Zendesk Chat, Fusioncore and Disqus Comment System</p>
+              <p>I was responsible for the entire website - design and development. I currently am responsible for site maintenance as well.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="http://www.theselfiespot.com" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- cocktailz modal -->
+      <div class="modal fade" id="portfolioModalCocktailz" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Cocktailz</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>Cocktailz is a simple web application where cocktail recipes can be added to a user's collection. Users can add, view, edit and delete cocktail recipes</p>
+              <p>It was built using Ruby on Rails, HTML, CSS, and Bootstrap for mobile responsiveness. I used Carrierwave gem for photo upload and Cloudinary for image storage.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://mr-cocktail-sabrinajayy.herokuapp.com" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- scrambld modal -->
+      <div class="modal fade" id="portfolioModalScrambld" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Scrambld</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>Scrambld is a simple game built with Ruby on Rails. Users are given 10 random letters and are to type the longest word he/she can find. Score is calculated based on time completed and word length</p>
+              <p>It was built using Ruby on Rails, HTML, CSS, and Bootstrap for mobile responsiveness.</p>
+              <p>Each word submitted is verified as an actual English word by using a dictionary API</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://scrambld-longest-word.herokuapp.com" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- To do modal -->
+      <div class="modal fade" id="portfolioModalToDo" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">To Do Manager</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>This To Do app allows users to add, mark as done, view, edit and delete tasks.</p>
+              <p>It was built using Ruby on Rails, PostgreSQL, HTML, CSS, and Bootstrap for mobile responsiveness.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://todo-manager-sabrina.herokuapp.com" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- quote machine modal -->
+      <div class="modal fade" id="portfolioModalMotiv8" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Motiv8</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>Motiv8 is a quote generator that allows users to view motivational quotes on the click of the button. Users can also tweet the quote to their followers.</p>
+              <p>This was built with HTML, CSS, Javascript and jQuery. Quotes are generated through quote API using AJAX.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://motiv8-sabrina.herokuapp.com" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
       </div>
 
 

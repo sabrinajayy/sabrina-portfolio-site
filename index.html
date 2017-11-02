@@ -77,16 +77,14 @@
 
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                          <a href="http://www.theselfiespot.com" target="_blank">
-                            <div class="project-img">
+                          <div class="project-img">
                               <img src="images/selfiespot-project.png" class="img-responsive" />
                               <div class="project-description text-center">
                                 <h3>The Selfie Spot Photobooth</h3>
                                 <p>Wordpress Development</p>
-                                <p>Click to view live</p>
                               </div>
                             </div>
-                          </a>
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalSelfie">View Details</button>
                         </div>
                         <div class="col-xs-12 col-sm-4">
                           <a href="https://mr-cocktail-sabrinajayy.herokuapp.com/" target="_blank">
@@ -172,6 +170,7 @@
       </div>
 
       <!--MODALS -->
+      <!-- updo modal -->
       <div class="modal fade" id="portfolioModalUpdo" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -189,6 +188,28 @@
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <a href="http://www.theupdo.co" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--selfie spot modal -->
+      <div class="modal fade" id="portfolioModalSelfie" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">The Selfie Spot Photobooth</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>The Selfie Spot is a photo booth rental company serving the Toronto, Canada area</p>
+              <p>The website was built using a custom Wordpress theme and plugins including Yoast SEO, Zendesk Chat, Fusioncore and Disqus Comment System</p>
+              <p>I was responsible for the entire website - design and development. I currently am responsible for site maintenance as well.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="http://www.theselfiespot.com" class="btn sabrina-btn" target="_blank">View Live</a>
               </div>
             </div>
           </div>

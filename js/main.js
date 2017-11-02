@@ -14,8 +14,10 @@
    $(document).ready(function() {
     $('#fullpage').fullpage({
       anchors:['home', 'about', 'portfolio', 'contact', 'footer'],
-      scrollOverflow: true
+      scrollOverflow: true,
+      normalScrollElements: '.modal'
     });
 
     $('[data-toggle="tooltip"]').tooltip();
+
    });

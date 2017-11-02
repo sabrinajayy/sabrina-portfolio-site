@@ -99,16 +99,14 @@
                       </div>
                       <div class="row">
                         <div class="col-xs-12 col-sm-4">
-                          <a href="https://scrambld-longest-word.herokuapp.com/" target="_blank">
                             <div class="project-img">
                               <img src="images/scrambld-project.jpg" class="img-responsive" />
                               <div class="project-description text-center">
                                 <h3>Scrambld</h3>
                                 <p>Ruby on Rails, HTML, CSS, Bootstrap</p>
-                                <p>Click to view live</p>
                               </div>
                             </div>
-                          </a>
+                          <button type="button" data-toggle="modal" data-target="#portfolioModalScrambld">View Details</button>
                         </div>
                         <div class="col-xs-12 col-sm-4">
                           <a href="https://todo-manager-sabrina.herokuapp.com/" target="_blank">
@@ -229,6 +227,28 @@
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <a href="https://mr-cocktail-sabrinajayy.herokuapp.com" class="btn sabrina-btn" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- scrambld modal -->
+      <div class="modal fade" id="portfolioModalScrambld" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Scrambld</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+              <p>Scrambld is a simple game built with Ruby on Rails. Users are given 10 random letters and are to type the longest word he/she can find. Score is calculated based on time completed and word length</p>
+              <p>It was built using Ruby on Rails, HTML, CSS, and Bootstrap for mobile responsiveness.</p>
+              <p>Each word submitted is verified as an actual English word by using a dictionary API</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://scrambld-longest-word.herokuapp.com" class="btn sabrina-btn" target="_blank">View Live</a>
               </div>
             </div>
           </div>

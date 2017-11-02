@@ -4,13 +4,17 @@
   position: sticky;
   height: 5rem;
   width: 100%;
-  padding-top: 1.25rem;
+  padding-top: 2.5rem;
+  padding-right: 2rem;
   z-index: 9;
+  background-color: white;
 }
 
 #nav i {
   color: #b49996;
   text-align: right;
+  font-size: 35px;
+  opacity: 0.8;
 }
 
 .hamburger-menu {
@@ -21,7 +25,6 @@
 .nav-active {
   height: 100%;
   background-color: #b49996;
-  opacity: 0.3;
 }
 
 .menu-icon-active {

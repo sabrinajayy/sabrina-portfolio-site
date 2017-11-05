@@ -24,24 +24,35 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-      <div id="nav">
-        <div class="nav-bar">
-          <div class="hamburger-menu">
-            <i class="fa fa-bars burger" aria-hidden="true"></i>
-            <div class="x-icon hidden">
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
-          </div>
+
+      <div class="menu-section hidden-xs hidden-sm">
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
         </div>
-        <div class="menu-items hidden">
-           <ul class="nav-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
+        <nav>
+          <ul role="navigation" class="hidden">
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">resume</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+        <!-- Dropdown appearing on mobile only -->
+      <div class="mobile-menu hidden-md hidden-lg">
+        <div class="dropdown text-right">
+          <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars" ></i></a>
+            <ul class="dropdown-menu dropdown-menu-right mobile-dropdown-menu" role="navigation">
+              <li><a href="#about">About Me</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
-           </ul>
-         </div>
+            </ul>
+
+        </div>
       </div>
+
 
       <div class="container" >
           <div id="fullpage">
@@ -146,7 +157,7 @@
 
                  <h2>Let's chat</h2>
                  <p>Contact me if you'd like to discuss how we can work together. I'm currently seeking full-time opportunities and/or freelance projects!</p>
-                 <p>Email: hello@sabrinajohn.co</p>
+                 <p>Email: sabrina.john1990@gmail.com</p>
                  <!-- social media icons -->
                  <ul class="list-inline">
                   <li><a href="http://www.github.com/sabrinajayy" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Github"></i></a></li>

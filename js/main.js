@@ -19,6 +19,19 @@
       $('.container, #footer').removeClass('hidden');
     });
 
+    //testing new menu
+    $(".menu-toggle").on('click', function(e) {
+      e.preventDefault();
+      $(this).toggleClass("on");
+      $('.menu-section').toggleClass("on");
+      $("nav ul").toggleClass('hidden');
+    });
+    $(".menu-section nav ul li a").on('click', function(e) {
+        $('nav ul').toggleClass('hidden');
+        $('.menu-section').toggleClass('on');
+        $('.menu-toggle').toggleClass('on');
+    });
+
   });
 
    $(document).ready(function() {

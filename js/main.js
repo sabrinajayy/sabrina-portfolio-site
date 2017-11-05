@@ -7,17 +7,17 @@
       //   });
       // }
 
-    $('#nav .hamburger-menu i').on('click', function() {
-      $('.nav-bar').addClass('hidden');
-      $('.menu-items').toggleClass('hidden');
-      $('.container, #footer').addClass('hidden');
-    });
+    // $('#nav .hamburger-menu i').on('click', function() {
+    //   $('.nav-bar').addClass('hidden');
+    //   $('.menu-items').toggleClass('hidden');
+    //   $('.container, #footer').addClass('hidden');
+    // });
 
-    $('#nav ul li, .menu-items i').click(function (e) {
-      $('.menu-items').toggleClass('hidden');
-      $('.nav-bar').removeClass('hidden');
-      $('.container, #footer').removeClass('hidden');
-    });
+    // $('#nav ul li, .menu-items i').click(function (e) {
+    //   $('.menu-items').toggleClass('hidden');
+    //   $('.nav-bar').removeClass('hidden');
+    //   $('.container, #footer').removeClass('hidden');
+    // });
 
     //testing new menu
     $(".menu-toggle").on('click', function(e) {

@@ -99,8 +99,18 @@
 /*testing new nav*/
 
 @media screen and (max-width: 940px) {
-
+    .menu-toggle {
+    width: 40px;
+    height: 30px;
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    cursor: pointer;
+  }
 }
+
+
+
 
 .menu-toggle {
   width: 40px;
@@ -181,4 +191,45 @@ nav ul a:hover {
   display: block;
   background-color: rgba(180, 153, 150, 0.9);
   position: absolute;
+}
+/*only mobile*/
+.mobile-menu {
+  text-align: right;
+  padding-right: 3rem;
+  padding-top: 3rem;
+}
+
+.mobile-menu i {
+  color: #b49996;
+  font-size: 3rem;
+}
+
+.mobile-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.mobile-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.mobile-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.mobile-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
 }

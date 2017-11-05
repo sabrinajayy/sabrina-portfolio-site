@@ -113,7 +113,7 @@
 
 
 .menu-toggle {
-  width: 40px;
+  width: 35px;
   height: 30px;
   position: absolute;
   top: 20px;
@@ -145,6 +145,7 @@
   height: 5px;
   background: #b49996;
   margin: 6px auto;
+  border-radius: 2px;
   backface-visibility: hidden;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -194,12 +195,16 @@ nav ul a:hover {
 }
 /*only mobile*/
 .mobile-menu {
-  text-align: right;
-  padding-right: 3rem;
-  padding-top: 3rem;
+  height: 50px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
 }
 
 .mobile-menu i {
+  padding-top: 3rem;
+  padding-right: 3rem;
   color: #b49996;
   font-size: 3rem;
 }
@@ -219,7 +224,7 @@ nav ul a:hover {
 }
 .mobile-dropdown-menu li > a:hover {
   background: transparent !important;
-  color: black !important;
+  color: #b49996 !important;
 }
 .mobile-dropdown-menu:before {
   content: ' ';
